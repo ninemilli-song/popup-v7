@@ -58,7 +58,7 @@ class Popup extends React.Component {
                         { closeBtn && <span className={ _prefixCls + '-close-btn' } onClick={ this.hide }></span> }
                         <div className={ _prefixCls + '-content' }>
                             {
-                                React.Children.map(this.props.children, function (item) {
+                                React.Children.map(this.props.children, (item) => {
                                     return item;
                                 })
                             }
