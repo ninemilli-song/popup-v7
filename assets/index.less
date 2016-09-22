@@ -1,0 +1,28 @@
+/**
+ * Created with JetBrains WebStorm.
+ * Author: songxg
+ * Date: 16/9/21
+ * Time: 下午2:07
+ */
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+@prefixCls: popup-v7;
+
+.@{prefixCls} {
+  &-anchor {
+    display: inline-block;
+    //position: relative;
+  }
+
+  &-popup {
+    position: absolute;
+    padding: 10px;
+    -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e6e6e6 \0;
+    background-color: #FFFFFF;
+  }
+}

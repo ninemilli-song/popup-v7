@@ -1,0 +1,65 @@
+{
+  "name": "popup-v7",
+  "version": "1.0.0",
+  "description": "popup component for react",
+  "files": [
+    "lib",
+    "assets/*.css"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "rc-tools run build",
+    "gh-pages": "rc-tools run gh-pages",
+    "watch": "rc-tools run watch",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run pub",
+    "lint": "rc-tools run lint",
+    "lint:fix": "rc-tools run lint --fix",
+    "karma": "rc-tools run karma",
+    "saucelabs": "rc-tools run saucelabs",
+    "test": "rc-tools run test",
+    "chrome-test": "rc-tools run chrome-test",
+    "coverage": "rc-tools run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ninemilli-song/popup-v7.git"
+  },
+  "keywords": [
+    "react",
+    "react-popup",
+    "popup",
+    "component",
+    "ui"
+  ],
+  "author": "ninemilli.song",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninemilli-song/popup-v7/issues"
+  },
+  "homepage": "https://github.com/ninemilli-song/popup-v7#readme",
+  "config": {
+    "port": 8000
+  },
+  "dependencies": {
+    "dom-align": "^1.5.2",
+    "object-path": "^0.11.1",
+    "rc-util": "3.x",
+    "shallowequal": "^0.2.2"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "jquery": "^1.11.2",
+    "pre-commit": "1.x",
+    "rc-dropdown": "~1.4.10",
+    "rc-menu": "~4.13.0",
+    "rc-tools": "5.x",
+    "react": "^15.2.1",
+    "react-addons-test-utils": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "rc-animate": "^2.3.0"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
