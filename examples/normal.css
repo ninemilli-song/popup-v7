@@ -1,0 +1,67 @@
+/**
+ * Created with JetBrains WebStorm.
+ * Author: songxg
+ * Date: 16/9/21
+ * Time: 下午2:07
+ */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+.popup-v7-anchor {
+  display: inline-block;
+}
+.popup-v7-popup {
+  position: absolute;
+  padding: 10px;
+  -moz-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.2);
+  border: 1px solid #e6e6e6 \0;
+  background-color: #FFFFFF;
+}
+/**
+ * Created with JetBrains WebStorm.
+ * Author: songxg
+ * Date: 16/9/21
+ * Time: 下午2:27
+ */
+.example-container {
+  width: 100%;
+}
+.example-container .anchor {
+  display: inline-block;
+  margin-right: 50px;
+  background-color: red;
+  color: white;
+}
+.example-container .test-area {
+  position: relative;
+  margin: 20px 100px;
+  width: 50%;
+  height: 300px;
+  border: 1px solid gray;
+}
+.example-container .lt {
+  left: 0px;
+  top: 0px;
+}
+.example-container .rt {
+  right: 0px;
+  top: 0px;
+}
+.example-container .lb {
+  left: 0px;
+  bottom: 0px;
+}
+.example-container .rb {
+  right: 0px;
+  bottom: 0px;
+}
+.example-container .center {
+  top: 100px;
+  left: 100px;
+}
+
+/*# sourceMappingURL=normal.css.map*/
